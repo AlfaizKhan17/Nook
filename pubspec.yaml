@@ -20,6 +20,7 @@ dependencies:
   url_launcher: ^6.3.1
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
   flutter_test:
     sdk: flutter
 
@@ -30,3 +31,8 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/nook_icon
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/nook_icon.png"
