@@ -1,0 +1,102 @@
+# ==========================================
+# NOOK - Flutter / Dart
+# ==========================================
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+
+
+
+# ==========================================
+# SECRETS AND LOCAL CONFIGURATION
+# Never commit API keys or credentials
+# ==========================================
+
+env.json
+env.*.json
+!env.example.json
+
+.env
+.env.*
+!.env.example
+*.env
+
+# ==========================================
+# SUPABASE
+# ==========================================
+
+# Local Supabase CLI state
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+supabase/.env.*
+
+# Never ignore migrations or configuration:
+# Keep supabase/migrations/ tracked.
+
+# ==========================================
+# ANDROID
+# ==========================================
+
+android/local.properties
+android/.gradle/
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Signing keys and certificates
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.mobileprovision
+service-account*.json
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+
+# ==========================================
+# IOS
+# ==========================================
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+
+# ==========================================
+# IDE AND EDITORS
+# ==========================================
+
+.idea/
+*.iml
+
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+
+*.log
+*.tmp
+*.bak
